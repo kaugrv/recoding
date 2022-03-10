@@ -2,6 +2,14 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
 canvas {
-  display: block;
+  display: flex;
+  border: solid 5px white;
+}
+
+.signature {
+  font-family: "Helvetica";
+  background-color: white;
+  width:610px;
 }
