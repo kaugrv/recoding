@@ -2,7 +2,7 @@
 // T. DEBEAUNE et W. GERVAIS
 // Vera Molnar - Square Structures
 
-// Static Version (V2)
+// Static Version (V2. 20/03/22)
 
 function setup() {
   let img = createCanvas(700, 700);
@@ -32,6 +32,8 @@ function DrawSquare(n, i, j) {
       
       
 // draw the quadrangle :
+       //stroke(20*(i+j),20*i,20*j); // color gradient
+      
       quad(40+dispersion[0],40+dispersion[1],80+dispersion[2],40+dispersion[3],80+dispersion[4],80+dispersion[5],40+dispersion[6],80+dispersion[7]);
 
     }
