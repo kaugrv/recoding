@@ -1,7 +1,6 @@
-
 function setup()
-    create a 700*700 canvas
-    DrawMesh(3, 6, 6)
+    create a 650*650 canvas
+    DrawMesh(6, 6)
    
 function DrawSquare(quad_amount, column, line)
     push()
@@ -15,7 +14,7 @@ function DrawSquare(quad_amount, column, line)
     pop()
     
     
-function DrawMesh(quad_amount, width, height)
+function DrawMesh(width, height)
     for j from 0 to height/2, with a step of 1
         for i from width to 0, with a step of 1
 	    ijquad_amount <- 2*(width-i-1 + width*j + 1)
@@ -27,12 +26,9 @@ function DrawMesh(quad_amount, width, height)
     for j from 0 to height/2, with a step of 1
         for i from width to 0, with a step of 1
 	    ijquad_amount <- width-i-1 + width*j + 1
-	    drawn in brown
+	    drawn in brown 
             DrawSquare(ijquad_amount, width-1-i, height-1-j)
 	    drawn in black
             DrawSquare(ijquad_amount, width-1-i, height-1-j)
         end for
     end for
-
-
-
