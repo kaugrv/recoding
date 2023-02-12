@@ -1,4 +1,4 @@
-# Projet Recoding
+# Recoding Project
 
 ## Static
 
